@@ -1,0 +1,75 @@
+[
+  {
+    "id": "kitchen-modern",
+    "title": "Кухня в современном стиле",
+    "category": ["kitchen"],
+    "city": "Новороссийск",
+    "materials": "МДФ, ЛДСП",
+    "description": "Современная кухня по индивидуальным размерам с витриной, встроенной техникой и продуманным хранением.",
+    "cover": "assets/kitchen-hero.jpg",
+    "images": [
+      "assets/kitchen-hero.jpg",
+      "assets/kitchen-vitrine.jpg"
+    ]
+  },
+  {
+    "id": "kids-work-zone",
+    "title": "Детская и рабочая зона",
+    "category": ["kids", "work"],
+    "city": "Новороссийск",
+    "materials": "ЛДСП, МДФ",
+    "description": "Мебель для детской с рабочей зоной и системой хранения, выполненная под размеры помещения.",
+    "cover": "assets/kids-zone.jpg",
+    "images": [
+      "assets/kids-zone.jpg"
+    ]
+  },
+  {
+    "id": "kitchen-red",
+    "title": "Компактная кухня с акцентом",
+    "category": ["kitchen"],
+    "city": "Новороссийск",
+    "materials": "МДФ, ЛДСП",
+    "description": "Компактная кухня с выразительными верхними фасадами и встроенной техникой.",
+    "cover": "assets/kitchen-red.jpg",
+    "images": [
+      "assets/kitchen-red.jpg"
+    ]
+  },
+  {
+    "id": "kitchen-warm",
+    "title": "Кухня в теплых оттенках",
+    "category": ["kitchen"],
+    "city": "Геленджик",
+    "materials": "МДФ, ЛДСП",
+    "description": "Светлая кухня в теплой нейтральной гамме с большим количеством хранения.",
+    "cover": "assets/kitchen-warm.jpg",
+    "images": [
+      "assets/kitchen-warm.jpg"
+    ]
+  },
+  {
+    "id": "kitchen-beige",
+    "title": "Угловая кухня",
+    "category": ["kitchen"],
+    "city": "Анапа",
+    "materials": "МДФ, ЛДСП",
+    "description": "Угловая кухня в мягких бежевых оттенках, изготовленная по индивидуальному проекту.",
+    "cover": "assets/kitchen-beige.jpg",
+    "images": [
+      "assets/kitchen-beige.jpg"
+    ]
+  },
+  {
+    "id": "wardrobe-work-zone",
+    "title": "Шкаф и рабочая зона",
+    "category": ["wardrobe", "work"],
+    "city": "Новороссийск",
+    "materials": "ЛДСП",
+    "description": "Встроенная система хранения с рабочей зоной в единой древесной отделке.",
+    "cover": "assets/wardrobe.jpg",
+    "images": [
+      "assets/wardrobe.jpg"
+    ]
+  }
+]
