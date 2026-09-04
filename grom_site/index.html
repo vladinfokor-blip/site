@@ -46,14 +46,7 @@
       <div class="filters" id="filters">
         <button class="active" data-filter="all">Все</button><button data-filter="kitchen">Кухни</button><button data-filter="wardrobe">Шкафы</button><button data-filter="kids">Детские</button><button data-filter="work">Рабочие зоны</button><button data-filter="other">Другая мебель</button>
       </div>
-      <div class="projects-grid" id="projectsGrid">
-        <article class="project" data-cat="kitchen" data-title="Кухня в современном стиле"><img src="assets/kitchen-hero.jpg" alt="Кухня в современном стиле"><div class="shade"></div><div class="project-meta"><h3>Кухня в современном стиле</h3><p>⌖ Новороссийск</p></div><button class="round">→</button></article>
-        <article class="project" data-cat="kids work" data-title="Детская и рабочая зона"><img src="assets/kids-zone.jpg" alt="Детская и рабочая зона"><div class="shade"></div><div class="project-meta"><h3>Детская и рабочая зона</h3><p>⌖ Новороссийск</p></div><button class="round">→</button></article>
-        <article class="project" data-cat="kitchen" data-title="Компактная кухня с акцентом"><img src="assets/kitchen-red.jpg" alt="Компактная кухня"><div class="shade"></div><div class="project-meta"><h3>Компактная кухня с акцентом</h3><p>⌖ Новороссийск</p></div><button class="round">→</button></article>
-        <article class="project" data-cat="kitchen" data-title="Кухня в теплых оттенках"><img src="assets/kitchen-warm.jpg" alt="Кухня в теплых оттенках"><div class="shade"></div><div class="project-meta"><h3>Кухня в теплых оттенках</h3><p>⌖ Геленджик</p></div><button class="round">→</button></article>
-        <article class="project" data-cat="kitchen" data-title="Угловая кухня"><img src="assets/kitchen-beige.jpg" alt="Угловая кухня"><div class="shade"></div><div class="project-meta"><h3>Угловая кухня</h3><p>⌖ Анапа</p></div><button class="round">→</button></article>
-        <article class="project" data-cat="wardrobe work" data-title="Шкаф и рабочая зона"><img src="assets/wardrobe.jpg" alt="Шкаф и рабочая зона"><div class="shade"></div><div class="project-meta"><h3>Шкаф и рабочая зона</h3><p>⌖ Новороссийск</p></div><button class="round">→</button></article>
-      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
     </section>
 
     <section class="section muted" id="services"><div class="container">
@@ -94,7 +87,7 @@
     <a class="btn btn-dark" href="#request">Оставить заявку</a>
   </footer>
 
-  <dialog id="projectDialog" class="project-dialog"><button class="dialog-close" aria-label="Закрыть">×</button><img id="dialogImg" src="" alt=""><div class="dialog-copy"><div class="eyebrow">ПРОЕКТ</div><h2 id="dialogTitle"></h2><p>Индивидуальное решение по размерам помещения. Подбор материалов, проектирование, изготовление и монтаж одной командой.</p><a class="btn btn-dark" href="#request" id="dialogCta">Хочу похожий проект</a></div></dialog>
+  <dialog id="projectDialog" class="project-dialog"><button class="dialog-close" aria-label="Закрыть">×</button><img id="dialogImg" src="" alt=""><div class="dialog-copy"><div class="eyebrow">ПРОЕКТ</div><h2 id="dialogTitle"></h2><p id="dialogDescription"></p><a class="btn btn-dark" href="#request" id="dialogCta">Хочу похожий проект</a></div></dialog>
 
   <script src="script.js"></script>
 </body>
